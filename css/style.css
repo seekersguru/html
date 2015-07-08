@@ -59,7 +59,7 @@ html {
 }
 body {
      font-family: 'aint_nothing_fancyregular';
-    font-size: 14px;
+    font-size: 14px; min-height:780px;
     line-height: 18px; 
     margin-bottom:40px; overflow-x:hidden; 
 }
@@ -342,11 +342,11 @@ article .white-box .entry-content .entry-date{border-top:solid 1px #000; color:#
 
 article .white-box .entry-content .entry-meta{color:#000; line-height:28px; font-size:14px; margin-top:12px;  }
 article .white-box .arrow-articale{position:absolute; bottom:-10px; right:26px;}
-.blueprint-bg{background-color:#dfe1d4; }
-.foundation-bg{background-color:#e36552; }
-.growth-bg{background-color:#4cd2e6; }
-.freedom-bg{background-color:#aad84c; }
-.funroof-bg{background-color:#eebd0b; }
+.blueprint-bg{background-color:#dfe1d4; min-height:780px;  }
+.foundation-bg{background-color:#e36552; min-height:780px;}
+.growth-bg{background-color:#4cd2e6; min-height:780px;}
+.freedom-bg{background-color:#aad84c; min-height:780px;}
+.funroof-bg{background-color:#eebd0b; min-height:780px;}
 article .entry-thumb {
     float: left;
     width: 90px; 
@@ -1064,6 +1064,13 @@ ul.ed-iocn {
     letter-spacing: 0.2px;
     margin-top: 0;
 }
+.freedom .specch-content h4 a {
+    color: #339a01;
+     font-family: "clear_sansbold";
+    font-size: 17px; text-align:left; 
+    letter-spacing: 0.2px;
+    margin-top: 0;
+}
 .freedom .specch-content p {
     color: #444444;
     font-family: "clear_sans_lightregular";
@@ -1100,6 +1107,14 @@ ul.ed-iocn {
     padding-left: 60px;
 }
 .funmoney .specch-content h4 {
+    color: #e0930f;
+     font-family: "clear_sansbold";
+    font-size: 17px; text-align:left; 
+    letter-spacing: 0.2px;
+    margin-top: 0;
+}
+
+.funmoney .specch-content h4 a {
     color: #e0930f;
      font-family: "clear_sansbold";
     font-size: 17px; text-align:left; 
